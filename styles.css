@@ -1,0 +1,32 @@
+/* Master Styles */
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+/* Loader */
+.loader {
+    border: 7px solid #b1b1b1;
+    border-radius: 50%;
+    border-top: 7px solid #3498db;
+    width: 35px;
+    height: 35px;
+    -webkit-animation: spin 2s linear infinite;
+    display: inline-block;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Cursor pointer */
+a, button {
+  cursor: pointer; 
+}
